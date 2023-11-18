@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAPSTONE2</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Slick Css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./slick-1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./slick-1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fancy box -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header__container">
+        <span class="logo">
+          <i class="fa-brands fa-shopify"></i> MOBILE SHOP</span
+        >
+        <li>
+          <i class="fas fa-search">
+            <input type="text" placeholder="Tìm kiếm..." />
+          </i>
+          
+          
+        </li>
+        <nav>
+          <a class="active" href="#">HOME</a>
+          <a href="#">SERVICE</a>
+          <a href="#">SHOWCASE</a>
+          <a href="#">BLOG</a>
+          <a href="#">ABOUT US</a>
+          <a class="fas fa-shopping-cart" href="#">GIỎ HÀNG</a>
+        </nav>
+      </div>
+    </header>
+    <section class="banner">
+      <h2>WELCOME TO OUR SHOP</h2>
+      <h3>
+        SMART PHONES <br />
+        SMART LIFE
+      </h3>
+      <button>READ MORE</button>
+      <i class="fa fa-chevron-down"></i>
+    </section>
+    <section class="carousel">
+      <p>SERVICES WE ARE OFFERING</p>
+      <br />
+      <h2>DANH SÁCH SẢN PHẨM </h2>
+      <br />
+      <h3>
+        Ở ĐÂY CHÚNG TÔI CÓ RẤT NHIỀU MẶT HÀNG MỚI 
+        
+      </h3>
+      <div class="container">
+        <div class="carousel__list">
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>
+                ĐIỆN THOẠI  <br />
+                DI ĐỘNG
+              </h3>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fas fa-laptop"></i>
+              <h3>
+                LAPTOP <br />
+                GAMING
+              </h3>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fas fa-tablet"></i>
+              <h3>
+                MÁY TÍNH <br />
+                BẢNG
+              </h3>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fas fa-headphones"></i>
+              <h3>
+                PHỤ KIỆN <br />
+                CÔNG NGHỆ
+              </h3>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fas fa-stopwatch"></i>
+              <h3>
+                ĐỒNG HỒ <br />
+                THÔNG MINH
+              </h3>
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="item__container">
+              <i class="fas fa-stopwatch"></i>
+              <h3>
+                ĐỒNG HỒ <br />
+                THỜI TRANG
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blogs">
+      <div class="text_tittle">
+        <p>OUR NEWS & ARTICLES</p>
+        <br />
+        <h2>CÁC SẢN PHẨM MỚI</h2>
+        <br />
+        <h3>
+          We are committed to providing our customers with exceptional service
+          while offering <br />
+          our employees the best training.
+        </h3>
+      </div>
+      <div class="container blogs__list">
+        <!-- start item -->
+        <div class="blogs__item item-1">
+          <img src="./image-video/zflip.jpg" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/zflip.jpg"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <Str>399.99$</Str>
+              <h3>SAM SUNG ZFLIP</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item item-2">
+          <img src="./image-video/dien-thoai-iphone-11-pro-max-4.jpg" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/dien-thoai-iphone-11-pro-max-4.jpg"
+              >
+              <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <strong class="btn btn-danger">299$</strong>
+              <h3>IPHONE 14 PRO MAX</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item">
+          <img src="./image-video/air-2.png" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/air-2.png"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <strong>29$</strong>
+              <h3>AIRPOD2</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item">
+          <img src="./image-video/airpods-3.png" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/airpods-3.png"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <strong>59$</strong>
+              <h3>AIRPOD3</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item">
+          <img src="./image-video/R.jpg" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/R.jpg"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <strong>899.99$</strong>
+              <h3>MACBOOK</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item">
+          <img src="./image-video/1.jpg" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/1.jpg"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <strong>350$</strong>
+              <h3>PLAYSTAYTION</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item">
+          <img src="./image-video/m3.jpg" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/m3.jpg"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <strong>499$</strong>
+              <h3>IPAD PRO M3</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item">
+          <img src="./image-video/beat.jpg" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/beat.jpg"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <strong>39$</strong>
+              <h3>TAI NGHE BEAT</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item">
+          <img src="./image-video/pc.jpg" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/pc.jpg"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <strong>89$</strong>
+              <h3>MÁY TÍNH BÀN</h3>
+            </div>
+          </div>
+        </div>
+        <div class="blogs__item">
+          <img src="./image-video/coc.jpg" alt="" />
+          <div class="item__overlay">
+            <div class="item__search">
+              <a
+                data-fancybox="gallery"
+                href="./image-video/coc.jpg"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+            <div class="item__title">
+              <strong>19.99$</strong>
+              <h3>PHỤ KIỆN SẠC</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- end item -->
+      </div>
+    </section>
+    <section class="numbers">
+      <div class="numbers__list container">
+        <div class="numbers__item">
+          <h3>8,705</h3>
+          <span>PROJECTS COMPLETED</span>
+        </div>
+        <div class="numbers__item">
+          <h3>480</h3>
+          <span>ACTIVE CLIENTS</span>
+        </div>
+        <div class="numbers__item">
+          <h3>625</h3>
+          <span>CUPS OF COFFEE</span>
+        </div>
+        <div class="numbers__item">
+          <h3>9,774</h3>
+          <span>HAPPY CLIENTS</span>
+        </div>
+      </div>
+    </section>
+    <section class="experiences">
+      <div class="exp_title">
+        <p>HOW DO WE WORKS</p>
+        <br />
+        <h2>DIGITAL EXPERIENCE</h2>
+        <br />
+        <h3>
+          We are committed to providing our customers with exceptional service
+          while offering <br />
+          our employees the best training.
+        </h3>
+      </div>
+      <div class="exp_videos">
+        <video controls poster="https://youtu.be/94B6mcGm8Sc" src="">
+          <source src="https://youtu.be/94B6mcGm8Sc" type="video/mp4" />
+          "Error 404 HTML5"
+        </video>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact_title">
+        <h2>CONTACT</h2>
+        <br />
+        <p>
+          Thanks you for your interest in our website & out services. If you
+          have any <br />questions, please write us a message now!
+        </p>
+      </div>
+      <div class="container">
+        <div class="contact__map">
+          <!-- search 1 địa chỉ trong google map -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996056.7587701452!2d107.58043898590725!3d12.788460058443276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171f7daf7307157%3A0x8ef97694d9883315!2zxJDhuq9rIEzhuq9rLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1692808296653!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form class="contact__form">
+          <input type="text" placeholder="Username" />
+          <input type="text" placeholder="Email Address" />
+          <textarea placeholder="Ask a question" name="" id=""></textarea>
+          <button>SUBMIT</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__container">
+        <p>© 2021 UI-CYBERSOFT. ALL RIGHTS RESERVED.</p>
+        <div class="footer__icon">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="cd-top text-replace js-cd-top"><i class=”fas fa-angle-up”></i></a>
+    </a>
+
+    <!-- jquerry -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- waypoint -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- count up js -->
+    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+    <!-- config -->
+    <script>
+      $(".numbers__item h3").countUp();
+    </script>
+
+    <!-- slick js -->
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <!-- config -->
+    <script>
+      $(document).ready(function () {
+        $(".carousel__list").slick({
+          infinite: true,
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: true,
+        });
+      });
+    </script>
+
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <!-- config -->
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+    </script>
+    <!-- backtotop -->
+    <script src="./back-to-top-master/assets/js/util.js"></script>
+    <script src="./back-to-top-master/assets/js/main.js"></script>
+  </body>
+</html>
