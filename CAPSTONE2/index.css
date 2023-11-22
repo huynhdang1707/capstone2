@@ -435,3 +435,27 @@ background-size: cover;
     opacity: 0;
     transition: opacity .3s, visibility .3s, background-color .3s;
 }
+
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.boxsp p{
+    color: #D0C7C8;
+}
+.boxsp a{
+    color: #e62b4a;
+}
+
+.boxsp  .img {
+    min-height: 230px;
+    text-align: center;
+}
+
+.img img {
+    height: 220px;
+}
